@@ -4,7 +4,7 @@ require "pry"
 
 chuckInstance = ChuckJokes.new
 
-TODO fix edge cases
+#TODO account for edge cases
 if ARGV[0] == "random"
   chuckInstance.random
 elsif ARGV[0].to_i > 0
